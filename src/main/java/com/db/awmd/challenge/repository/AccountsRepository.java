@@ -10,4 +10,6 @@ public interface AccountsRepository {
   Account getAccount(String accountId);
 
   void clearAccounts();
+  
+  boolean update(Account account);
 }
